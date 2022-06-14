@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="FluentValidation" Version="10.4.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\buildingblocks\Sale.Core\Sale.Core.csproj" />
+    <ProjectReference Include="..\Sale.Catalog.Domain\Sale.Catalog.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
